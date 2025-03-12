@@ -14,7 +14,7 @@ This approach allowed me to capture leads from an entire city instead of being c
 How I Used Object-Oriented Programming (OOP) and Scalability
 I structured my code using OOP principles to make it more modular and scalable. Here are the key components:
 * Lead Class → Stores business details like name, address, phone, website, rating, and reviews.
-* CityQuadrants Class → Represents a section of the city with its corresponding Google Maps search URL.
+* GridCoordinates Class → Represents a section of the city with its corresponding Google Maps search URL.
 * LeadAcquisition Class → Handles the main logic, including:
     * Retrieving city coordinates and dividing them into sections.
     * Scraping businesses from each quadrant.
