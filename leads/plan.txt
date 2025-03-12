@@ -1,0 +1,31 @@
+STEP 1: Use Google Maps api to create a url that can be used with selenium
+- type the name of your targets, extract long and latitude of the first company that shows
+- concatenates it to an url
+
+STEP 2: Initiate a selenium so that is scrolls to the very end of the page
+- during the scroll, htmlparser can extract data about those businesses
+
+STEP 3: Look for pricing and social media pages:
+
+get website from json, perform osint search to look on pricing and about us page. in the about us,
+look for social media handles. if a youtube account in present, you can perform a yt diagnosis
+STEP 4: Use selenium to automate a credential verification on a TBD website of each business
+
+NOTES:
+- ElementClickInterceptedException: span class="tXNTee L6Bbsd T7HQDc "
+- Improve scrolling to prevent every other element being caught instead of every element,
+- try to have every element in a sensibile viewing position instead of in between elements. Its being intercepted by
+googles random pop up Back to top
+- improve speed. i cut some things in half but more measures need to be taken
+- see if you can get the driver to scrape data even if a new tab isnt opened
+-
+
+STEP 5: Gain Social Media Accounts
+
+Step 6 Use ALL Apis to find out information about the social media accounts, use the api to find out their interests in how they comment
+the tone they post their content in, and also do a data analysis on their engagement
+
+Step 7: Learn to use Social media to find leads online, expanding your possibilities
+
+Step 8: if they have a youtube account, perform a diagnosis of their account. retriving information and then
+get transcripts of the 3 of their videos
